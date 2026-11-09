@@ -1,0 +1,12 @@
+"replaceMainMenuLogo": {
+  "//": "Ocultar el logo original de Minecraft.",
+  "value": true
+},
+"replaceMainMenuEditionLogo": {
+  "//": "Ocultar el texto Java Edition.",
+  "value": true
+},
+"setCustomBackground": {
+  "//": "Usar el fondo que ya contiene el logo.",
+  "value": true
+}
