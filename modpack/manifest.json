@@ -154,12 +154,20 @@
       "sha256": "bec9a1c78bb19ecc110e48b0aa37e724ce463acc039b4ed0e881f11267e3afc5"
     },
     {
+      "ruta": "mods/jei-26.2-fabric-30.48.0.244.jar",
+      "sha256": "0f4adcbd1cfc69288d62cee490ce2a28a7794e28d694f21dbd24596c76a15a96"
+    },
+    {
       "ruta": "mods/konkrete_fabric_1.11.1_MC_26.2.jar",
       "sha256": "b610cf9d1175fbbf0f1092a067f6d87e514f41fb0a3e5ae61fb53e3a8d1e4692"
     },
     {
       "ruta": "mods/melody_fabric_1.0.17_MC_26.2.jar",
       "sha256": "7f0c85662630afbce940d1afae87414b3b355aaf6f2cee0602f1fc78323d0c60"
+    },
+    {
+      "ruta": "mods/mezz_config-26.2-fabric-0.7.1.jar",
+      "sha256": "c02e1fed1db0b1a7b1a703850938c13ee0bc4a84c9a9390f3921846518cdeb9f"
     },
     {
       "ruta": "mods/modmenu-20.0.1.jar",
