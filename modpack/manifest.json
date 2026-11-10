@@ -90,38 +90,6 @@
       "sha256": "83380676ee3ab441d8aaf1c172572c8cc911a0776d945743d17b37537efc61ab"
     },
     {
-      "ruta": "config/serilum/collective.json",
-      "sha256": "eb0799ead8fb2c9201e2035dd105d1a115547001db012b75a2bd23f1ea925245"
-    },
-    {
-      "ruta": "config/serilum/simplemenu.json",
-      "sha256": "e7ef8d0e777e496c32535514e74f076a2220acecd0dc09dc09aa072854cadf65"
-    },
-    {
-      "ruta": "config/serilum/simplemenu.json.unreadable",
-      "sha256": "47f8739cf38f35a7be4e002caf6c6660a0f0c6752e82462388eb29b3c8f8ef26"
-    },
-    {
-      "ruta": "config/serilum/simplemenu/background/background.png",
-      "sha256": "f6f71a849a6839e345d0e6f71b5312c0cab3631e20a4475480487349d9c8ec1a"
-    },
-    {
-      "ruta": "config/serilum/simplemenu/icon/icon_16x16.png",
-      "sha256": "e52d23c313dcb9d60b1061c635205213cb8d072061b7f17a92d2e7a7e40753e1"
-    },
-    {
-      "ruta": "config/serilum/simplemenu/icon/icon_32x32.png",
-      "sha256": "fc19da09e10cbb309ce359a21aa8748568b664e65c2b358a7efeb87529761ba5"
-    },
-    {
-      "ruta": "config/serilum/simplemenu/logo/edition.png",
-      "sha256": "30d71c4299f0a0f87275d43d4174529b8a3710a89cff40235c5fac55b2339584"
-    },
-    {
-      "ruta": "config/serilum/simplemenu/logo/logo.png",
-      "sha256": "98646a12e1cc3c8f0bea857c11b0421e124730da1b66d7eb913e0bbd89c20b9a"
-    },
-    {
       "ruta": "config/sodium-fingerprint.json",
       "sha256": "1522da1c5bf32e9a9bf0f278baab07de8fc878da40f4c9aa0d4eddce63f1c451"
     },
