@@ -1,0 +1,48 @@
+
+name: Actualizar manifiesto del modpack
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "modpack/mods/**"
+      - "modpack/config/**"
+      - "generar-manifest.js"
+      - ".github/workflows/actualizar-modpack.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generar manifest.json
+        run: node generar-manifest.js
+
+      - name: Publicar manifiesto
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add modpack/manifest.json
+
+          if git diff --cached --quiet; then
+            echo "El manifiesto ya está actualizado"
+            exit 0
+          fi
+
+          git commit -m "Actualizar manifiesto del modpack [auto]"
+          git push
