@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "archivos": [
+    {
+      "ruta": "config/fancymenu/assets/boton.png",
+      "sha256": "05f98b5ff2a0bdf50ffacff7688d61684cfb333d983c711ef0f6b0e3a0c0993e"
+    },
+    {
+      "ruta": "config/fancymenu/assets/config.png",
+      "sha256": "14f38ae8c3802f7ff81420a0eb6c00410f8166e62a711d32a37d99fd0a05a0f9"
+    },
+    {
+      "ruta": "config/fancymenu/assets/salida.png",
+      "sha256": "dfde4c432c0e9bac1deece6928caaa9e00be8deff6b0230bb34398fc5017bd57"
+    },
+    {
+      "ruta": "config/fancymenu/custom_gui_screens.txt",
+      "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+    },
+    {
+      "ruta": "config/fancymenu/customizablemenus.txt",
+      "sha256": "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+    },
+    {
+      "ruta": "config/fancymenu/customization/title_screen_layout.txt",
+      "sha256": "b0bef168112b91a4931f89ba7526f3fdc73d058410fca49380b03da7c2ff3eae"
+    },
+    {
+      "ruta": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+      "sha256": "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
+    },
+    {
+      "ruta": "config/fancymenu/legacy_checklist.txt",
+      "sha256": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+    },
+    {
+      "ruta": "config/fancymenu/options.txt",
+      "sha256": "4f8268892d41a5ee02eeb7311c4c88bbccf8bd51d94c2bf0acd490cbe20ad43f"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/cherry_blossom.json",
+      "sha256": "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/cozy_campfire.json",
+      "sha256": "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/dark_high_contrast.json",
+      "sha256": "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/dark.json",
+      "sha256": "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/light_high_contrast.json",
+      "sha256": "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/light.json",
+      "sha256": "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/pumpkin_soup.json",
+      "sha256": "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/purple_void.json",
+      "sha256": "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+    },
+    {
+      "ruta": "config/fancymenu/ui_themes/spooky_season.json",
+      "sha256": "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+    },
+    {
+      "ruta": "config/fancymenu/user_variables.db",
+      "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+    },
+    {
+      "ruta": "config/forgeconfigapiport.toml",
+      "sha256": "40dbe5b348f89b8ded62bcdfe32807ffc3e78fa8e0f81607a739580019fe5450"
+    },
+    {
+      "ruta": "config/modmenu.json",
+      "sha256": "e8f1becee4d20e11702910e0d3eedbe35175922c6ba1a98b52efeb8c9ab3a11d"
+    },
+    {
+      "ruta": "config/mutantmonsters-common.toml",
+      "sha256": "83380676ee3ab441d8aaf1c172572c8cc911a0776d945743d17b37537efc61ab"
+    },
+    {
+      "ruta": "config/serilum/collective.json",
+      "sha256": "eb0799ead8fb2c9201e2035dd105d1a115547001db012b75a2bd23f1ea925245"
+    },
+    {
+      "ruta": "config/serilum/simplemenu.json",
+      "sha256": "e7ef8d0e777e496c32535514e74f076a2220acecd0dc09dc09aa072854cadf65"
+    },
+    {
+      "ruta": "config/serilum/simplemenu.json.unreadable",
+      "sha256": "47f8739cf38f35a7be4e002caf6c6660a0f0c6752e82462388eb29b3c8f8ef26"
+    },
+    {
+      "ruta": "config/serilum/simplemenu/background/background.png",
+      "sha256": "f6f71a849a6839e345d0e6f71b5312c0cab3631e20a4475480487349d9c8ec1a"
+    },
+    {
+      "ruta": "config/serilum/simplemenu/icon/icon_16x16.png",
+      "sha256": "e52d23c313dcb9d60b1061c635205213cb8d072061b7f17a92d2e7a7e40753e1"
+    },
+    {
+      "ruta": "config/serilum/simplemenu/icon/icon_32x32.png",
+      "sha256": "fc19da09e10cbb309ce359a21aa8748568b664e65c2b358a7efeb87529761ba5"
+    },
+    {
+      "ruta": "config/serilum/simplemenu/logo/edition.png",
+      "sha256": "30d71c4299f0a0f87275d43d4174529b8a3710a89cff40235c5fac55b2339584"
+    },
+    {
+      "ruta": "config/serilum/simplemenu/logo/logo.png",
+      "sha256": "98646a12e1cc3c8f0bea857c11b0421e124730da1b66d7eb913e0bbd89c20b9a"
+    },
+    {
+      "ruta": "config/sodium-fingerprint.json",
+      "sha256": "1522da1c5bf32e9a9bf0f278baab07de8fc878da40f4c9aa0d4eddce63f1c451"
+    },
+    {
+      "ruta": "config/sodium-mixins.properties",
+      "sha256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+    },
+    {
+      "ruta": "config/sodium-options.json",
+      "sha256": "a254b8f531a8cef6ade6f1b860e80ee4cfbf5fb5905d0963c24b121c4f6518a2"
+    },
+    {
+      "ruta": "mods/collective-26.2.0-8.67.jar",
+      "sha256": "c459f319cd67b1c512f1f2216190516dcf2da678f6df96f54ef58f230e937e18"
+    },
+    {
+      "ruta": "mods/fabric-api-0.156.0+26.2.jar",
+      "sha256": "8de18d9f6a8a2a5b2120ef9e8bffb79cc9b75989c0c022c39c9dfc1bc3a29a99"
+    },
+    {
+      "ruta": "mods/fancymenu_fabric_3.9.14_MC_26.2 (1).jar",
+      "sha256": "3b1ac80baa6594ab801f6f7c80569e6c398ea46e1bfcd366f7eb3ee322213eba"
+    },
+    {
+      "ruta": "mods/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+      "sha256": "1b4b17fc4150481447201152604688c74726d6631c9a626dd21f2c5e2b3df1ac"
+    },
+    {
+      "ruta": "mods/hardcore-auto-return-1.0.0.jar",
+      "sha256": "bec9a1c78bb19ecc110e48b0aa37e724ce463acc039b4ed0e881f11267e3afc5"
+    },
+    {
+      "ruta": "mods/konkrete_fabric_1.11.1_MC_26.2.jar",
+      "sha256": "b610cf9d1175fbbf0f1092a067f6d87e514f41fb0a3e5ae61fb53e3a8d1e4692"
+    },
+    {
+      "ruta": "mods/melody_fabric_1.0.17_MC_26.2.jar",
+      "sha256": "7f0c85662630afbce940d1afae87414b3b355aaf6f2cee0602f1fc78323d0c60"
+    },
+    {
+      "ruta": "mods/modmenu-20.0.1.jar",
+      "sha256": "81bfbca06012c57c74949072f2ffaad06360badee4d00dc59bfaeac80dd24bd8"
+    },
+    {
+      "ruta": "mods/MutantMonsters-v26.2.2-mc26.2.x-Fabric (1).jar",
+      "sha256": "618b07e168abc83ebbdb548f5247eda0cabc90a40fa0e4ed3a587cbf2ce82e71"
+    },
+    {
+      "ruta": "mods/PuzzlesLib-v26.2.1-mc26.2.x-Fabric.jar",
+      "sha256": "d5ce2ad7f99d8e403015f585d55064d591dcd90705483a8f5ce0f90c59e8d669"
+    },
+    {
+      "ruta": "mods/SimpleLogin-Fabric-26.2-1.16.7.jar",
+      "sha256": "16014ba5226db6dbfa267333996e2dbb5a5649dd1c39a45a78718d31181c62b2"
+    },
+    {
+      "ruta": "mods/simplemenu-26.2.0-2.4.jar",
+      "sha256": "4c312ca8c5d17911e8b59e1310375afdde0f0f10308365b1615dac921e605386"
+    },
+    {
+      "ruta": "mods/sodium-fabric-0.9.2+mc26.2.jar",
+      "sha256": "16a5e91db49750f8c046ecca3b8f2af5a28ea6f9b6581b42f123ca8fda20864f"
+    }
+  ]
+}
