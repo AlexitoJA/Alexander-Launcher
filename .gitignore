@@ -1,0 +1,31 @@
+
+# Dependencias
+node_modules/
+
+# Instaladores y compilaciones
+dist/
+build/
+out/
+*.asar
+
+# Minecraft local
+minecraft/
+mods/
+mods-administrados.json
+
+# Archivos temporales
+*.log
+*.tmp
+*.descarga
+*.respaldo
+
+# Respaldos y pruebas
+revision-101/
+revision-101-codigo/
+revision-101-extraido/
+main-backup.txt
+main-respaldo.js
+detector-java-respaldo.js
+
+# Configuracion de VS Code
+.vscode/

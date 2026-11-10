@@ -1,0 +1,61 @@
+{
+  "name": "alexander-launcher",
+  "version": "1.0.5",
+  "description": "Minecraft Hardcore - Launcher oficial",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "author": "Alexander",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.18.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.1",
+    "electron-updater": "^6.6.2",
+    "minecraft-launcher-core": "^3.18.2"
+  },
+  "build": {
+    "appId": "com.alexander.launcher",
+    "productName": "Minecraft Hardcore",
+    "artifactName": "Minecraft-Hardcore-Setup-${version}.${ext}",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "AlexitoJA",
+        "repo": "Alexander-Launcher"
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!minecraft/**",
+      "!dist/**",
+      "!*.log",
+      "!prueba-*.js",
+      "!*-respaldo.js"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Minecraft Hardcore"
+    }
+  }
+}

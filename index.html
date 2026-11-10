@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Minecraft Extremo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <header class="barra-superior">
+      <div class="marca">
+        <span class="diamante">◆</span>
+        <span>MINECRAFT <b>HARDCORE</b></span>
+      </div>
+
+      <div class="barra-derecha">
+        <div class="estado-cabecera">
+          <span id="puntoCabecera" class="punto esperando"></span>
+          <span id="estadoCabecera">Comprobando...</span>
+        </div>
+
+        <button id="btnActualizar" class="btn-secundario">
+          ↻ Actualizar
+        </button>
+      </div>
+    </header>
+
+    <main class="contenido">
+
+      <section class="portada">
+
+        <div class="etiquetas">
+          <span>TEMPORADA EXTREMA</span>
+          <span>LA AVENTURA COMIENZA</span>
+        </div>
+
+        <div class="centro-portada">
+          <img
+            src="assets/logo.png"
+            alt="Minecraft Hardcore"
+            class="logo"
+          >
+
+          <p class="subtitulo">
+            ¿ESTÁS LISTO PARA EL DESAFÍO?
+          </p>
+        </div>
+
+        <div class="etiquetas-inferiores">
+          <span>MINECRAFT 26.2</span>
+          <span>FABRIC</span>
+          <span>MODS</span>
+        </div>
+
+      </section>
+
+      <aside class="panel">
+
+        <div class="panel-contenido">
+
+          <div class="encabezado-panel">
+            <h1>Acceso al servidor</h1>
+            <p>Configura tu jugador y comienza la aventura.</p>
+          </div>
+
+          <div class="campo">
+            <label for="jugador">Nombre del jugador</label>
+            <input
+              type="text"
+              id="jugador"
+              maxlength="16"
+              placeholder="Tu nombre"
+              autocomplete="off"
+              spellcheck="false"
+            >
+            <small>De 3 a 16 letras, números o guion bajo.</small>
+          </div>
+
+          <div class="campo">
+            <label>Memoria RAM asignada</label>
+
+            <div class="opciones-ram">
+              <button class="ram activo" data-ram="4">4 GB</button>
+              <button class="ram" data-ram="6">6 GB</button>
+              <button class="ram" data-ram="8">8 GB</button>
+              <button class="ram" data-ram="10">10 GB</button>
+              <button class="ram" data-ram="12">12 GB</button>
+            </div>
+
+            <small>Memoria máxima para Minecraft.</small>
+          </div>
+
+          <div class="servidor">
+            <div class="servidor-linea">
+              <div class="servidor-info">
+                <span class="mini-titulo">SERVIDOR</span>
+                <strong id="ipServidor">
+                  ALEXANDERGGXD-QR4g.aternos.me
+                </strong>
+              </div>
+
+              <button id="btnCopiar" class="btn-copiar">
+                Copiar
+              </button>
+            </div>
+
+            <div class="estado-servidor">
+              <span id="puntoServidor" class="punto esperando"></span>
+
+              <div>
+                <strong id="textoServidor">
+                  Comprobando servidor...
+                </strong>
+
+                <small id="jugadoresServidor">
+                  Esperando respuesta
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="zona-jugar">
+            <p id="mensaje" class="mensaje">
+              Listo para comprobar el juego.
+            </p>
+
+            <div class="barra-progreso">
+              <div id="progreso"></div>
+            </div>
+
+            <button id="btnJugar" class="btn-jugar">
+              <span>▶</span>
+              JUGAR
+            </button>
+
+            <p class="nota">
+              Se comprobará el juego antes de iniciar.
+            </p>
+          </div>
+
+        </div>
+      </aside>
+
+    </main>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
