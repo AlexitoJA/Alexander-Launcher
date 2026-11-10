@@ -188,6 +188,10 @@
     {
       "ruta": "mods/travelersbackpack-fabric-26.2-11.3.4.jar",
       "sha256": "dd9272c6b022198e08d8239f965b4d612a4f07b6df9b34ae6a6601f633d54553"
+    },
+    {
+      "ruta": "mods/xaerominimap-fabric-26.2-26.6.2.jar",
+      "sha256": "ca40787f59fd0a8f04c17d97b0c89b0b100642f9954b0876ad070ea9051fb05c"
     }
   ]
 }
