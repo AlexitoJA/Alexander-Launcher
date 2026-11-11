@@ -170,6 +170,14 @@
       "sha256": "1b4b17fc4150481447201152604688c74726d6631c9a626dd21f2c5e2b3df1ac"
     },
     {
+      "ruta": "mods/gamingbarns-guns-V1.29-data.jar",
+      "sha256": "d680a4dd20acbdf3b1620d100c55800304bcc52cb146564df2516e68c210d19b"
+    },
+    {
+      "ruta": "mods/gun-core-V1.0.15-data+resource.jar",
+      "sha256": "ab90e6bf96670bff6f9662427d74c00dd58352fab47b973389f4b1bf5c217f79"
+    },
+    {
       "ruta": "mods/hardcore-auto-return-1.0.0.jar",
       "sha256": "bec9a1c78bb19ecc110e48b0aa37e724ce463acc039b4ed0e881f11267e3afc5"
     },
@@ -188,6 +196,10 @@
     {
       "ruta": "mods/mezz_config-26.2-fabric-0.7.1.jar",
       "sha256": "c02e1fed1db0b1a7b1a703850938c13ee0bc4a84c9a9390f3921846518cdeb9f"
+    },
+    {
+      "ruta": "mods/modern-guns-V1.9.3-data.jar",
+      "sha256": "7ee7633ff49f31f16dbb9bae5c6ba974edac5815f67a048a4dbd2ee92399619f"
     },
     {
       "ruta": "mods/modmenu-20.0.1.jar",
@@ -216,6 +228,10 @@
     {
       "ruta": "mods/travelersbackpack-fabric-26.2-11.3.4.jar",
       "sha256": "dd9272c6b022198e08d8239f965b4d612a4f07b6df9b34ae6a6601f633d54553"
+    },
+    {
+      "ruta": "mods/UndeadNights-2.2.5-Fabric-mc26.2.jar",
+      "sha256": "a5d389893bf4be4c22c144c2dc55bc3b0e8661f302e101f82b2d3e45975242e7"
     },
     {
       "ruta": "mods/xaerominimap-fabric-26.2-26.6.2.jar",
