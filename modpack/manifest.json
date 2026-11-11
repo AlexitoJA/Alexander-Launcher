@@ -174,10 +174,6 @@
       "sha256": "d680a4dd20acbdf3b1620d100c55800304bcc52cb146564df2516e68c210d19b"
     },
     {
-      "ruta": "mods/gun-core-V1.0.15-data+resource.jar",
-      "sha256": "ab90e6bf96670bff6f9662427d74c00dd58352fab47b973389f4b1bf5c217f79"
-    },
-    {
       "ruta": "mods/hardcore-auto-return-1.0.0.jar",
       "sha256": "bec9a1c78bb19ecc110e48b0aa37e724ce463acc039b4ed0e881f11267e3afc5"
     },
