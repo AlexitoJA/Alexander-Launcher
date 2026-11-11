@@ -210,10 +210,6 @@
       "sha256": "d5ce2ad7f99d8e403015f585d55064d591dcd90705483a8f5ce0f90c59e8d669"
     },
     {
-      "ruta": "mods/SimpleLogin-Fabric-26.2-1.16.7.jar",
-      "sha256": "16014ba5226db6dbfa267333996e2dbb5a5649dd1c39a45a78718d31181c62b2"
-    },
-    {
       "ruta": "mods/simplemenu-26.2.0-2.4.jar",
       "sha256": "4c312ca8c5d17911e8b59e1310375afdde0f0f10308365b1615dac921e605386"
     },
