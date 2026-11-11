@@ -1,6 +1,6 @@
 {
   "name": "alexander-launcher",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Minecraft Hardcore - Launcher oficial",
   "main": "main.js",
   "scripts": {
@@ -33,13 +33,26 @@
       "output": "dist"
     },
     "files": [
-      "**/*",
-      "!minecraft/**",
-      "!dist/**",
-      "!*.log",
-      "!prueba-*.js",
-      "!*-respaldo.js"
-    ],
+  "main.js",
+  "preload.js",
+  "renderer.js",
+  "index.html",
+  "style.css",
+  "assets/**",
+  "actualizador-config.js",
+  "actualizador-launcher.js",
+  "actualizador-mods.js",
+  "cache-assets.js",
+  "detector-java.js",
+  "estado-servidor.js",
+  "instalador-fabric.js",
+  "instalador-java.js",
+  "instalador-minecraft.js",
+  "minecraft-worker.js",
+  "sincronizador-github.js",
+  "sincronizar-mods.js",
+  "package.json"
+],
     "win": {
       "target": [
         {
