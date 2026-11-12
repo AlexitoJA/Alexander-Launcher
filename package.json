@@ -33,26 +33,26 @@
       "output": "dist"
     },
     "files": [
-  "main.js",
-  "preload.js",
-  "renderer.js",
-  "index.html",
-  "style.css",
-  "assets/**",
-  "actualizador-config.js",
-  "actualizador-launcher.js",
-  "actualizador-mods.js",
-  "cache-assets.js",
-  "detector-java.js",
-  "estado-servidor.js",
-  "instalador-fabric.js",
-  "instalador-java.js",
-  "instalador-minecraft.js",
-  "minecraft-worker.js",
-  "sincronizador-github.js",
-  "sincronizar-mods.js",
-  "package.json"
-],
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "style.css",
+      "assets/**",
+      "actualizador-config.js",
+      "actualizador-launcher.js",
+      "actualizador-mods.js",
+      "cache-assets.js",
+      "detector-java.js",
+      "estado-servidor.js",
+      "instalador-fabric.js",
+      "instalador-java.js",
+      "instalador-minecraft.js",
+      "minecraft-worker.js",
+      "sincronizador-github.js",
+      "sincronizar-mods.js",
+      "package.json"
+    ],
     "win": {
       "target": [
         {
@@ -61,7 +61,8 @@
             "x64"
           ]
         }
-      ]
+      ],
+      "icon": "assets/icon.ico"
     },
     "nsis": {
       "oneClick": false,
