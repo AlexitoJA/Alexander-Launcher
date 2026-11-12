@@ -1,4 +1,3 @@
-
 "use strict";
 
 const { sincronizar } = require("./sincronizador-github");

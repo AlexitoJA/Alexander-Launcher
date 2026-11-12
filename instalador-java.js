@@ -1,4 +1,3 @@
-
 const fs = require("fs");
 const path = require("path");
 const os = require("os");
@@ -114,7 +113,7 @@ async function instalarJava(enviarEstado = () => {}) {
     );
 
     if (!paquete) {
-      throw new Error("No se encontró Java 25 para Windows.");
+      throw new Error("No se encontrï¿½ Java 25 para Windows.");
     }
 
     enviarEstado("Descargando Java 25...");
@@ -133,7 +132,7 @@ async function instalarJava(enviarEstado = () => {}) {
       paquete.binary.package.checksum.toLowerCase()
     ) {
       throw new Error(
-        "La verificación SHA-256 de Java falló."
+        "La verificaciï¿½n SHA-256 de Java fallï¿½."
       );
     }
 
@@ -157,7 +156,7 @@ async function instalarJava(enviarEstado = () => {}) {
         nombre.split("/").includes("..") ||
         /^[a-zA-Z]:/.test(nombre)
       ) {
-        throw new Error("El ZIP contiene una ruta no válida.");
+        throw new Error("El ZIP contiene una ruta no vï¿½lida.");
       }
     }
 
@@ -177,7 +176,7 @@ async function instalarJava(enviarEstado = () => {}) {
 
     if (!encontrada) {
       throw new Error(
-        "No se encontró java.exe dentro del ZIP."
+        "No se encontrï¿½ java.exe dentro del ZIP."
       );
     }
 

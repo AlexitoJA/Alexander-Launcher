@@ -1,4 +1,3 @@
-
 const { app, BrowserWindow, ipcMain, clipboard } = require("electron");
 const path = require("path");
 const fs = require("fs");
@@ -99,10 +98,13 @@ const resultado = await actualizarMods(
 
     console.log("[MODS] Sincronización completada:", resultado);
 
-    publicarEstadoMods(
-      "listo",
-      `${resultado.total} mods comprobados. Listo para jugar.`
-    );
+    
+publicarEstadoMods(
+  "listo",
+  `${resultado.mods.total} mods y ${resultado.config.total} configuraciones comprobadas. Listo para jugar.`,
+  100
+);
+
 
     return resultado;
   })();
@@ -133,8 +135,9 @@ function crearVentana() {
     minHeight: 600,
     show: false,
     autoHideMenuBar: true,
-    backgroundColor: "#090d16",
-    title: "Minecraft Extremo",
+   backgroundColor: "#090d16",
+title: "Minecraft Extremo Z",
+icon: path.join(__dirname, "assets", "icon.png"),
 
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
