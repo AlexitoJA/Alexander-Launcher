@@ -162,6 +162,10 @@
       "sha256": "8de18d9f6a8a2a5b2120ef9e8bffb79cc9b75989c0c022c39c9dfc1bc3a29a99"
     },
     {
+      "ruta": "mods/fancymenu_fabric_3.9.14_MC_26.2 (1).jar",
+      "sha256": "3b1ac80baa6594ab801f6f7c80569e6c398ea46e1bfcd366f7eb3ee322213eba"
+    },
+    {
       "ruta": "mods/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
       "sha256": "1b4b17fc4150481447201152604688c74726d6631c9a626dd21f2c5e2b3df1ac"
     },
